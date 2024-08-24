@@ -42,3 +42,12 @@ In Git, "main" (or "master") is a naming convention for a branch. After cloning 
 ## h. Besides Our Initial Commit (If It Is a New Repository), Should We Directly Push Our Changes into the Main Branch?
 
 Ideally, you should create a separate branch for your changes, make and commit changes in that branch, and then push the branch. Finally, create a pull request to merge your changes into the main branch. This approach allows for better code review and integration practices.
+
+## Sources
+
+- [GitHub](https://github.com/)
+- [About Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
+- [Managing Teams and People with Access to Your Repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-teams-and-people-with-access-to-your-repository#removing-access-for-a-team-or-person)
+- [Git vs. GitHub: What's the Difference?](https://devmountain.com/blog/git-vs-github-whats-the-difference/#:~:text=GitHub%E2%80%A6-,what's%20the%20difference%3F,lets%20you%20manage%20Git%20repositories.)
+- [What Does `git diff` Do?](https://www.toolsqa.com/git/git-diff/)
+- [What is the Main Branch?](https://www.git-tower.com/learn/git/glossary/master#:~:text=In%20Git%2C%20%22main%22%20(,a%20repository's%20%22default%22%20branch.)
