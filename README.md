@@ -34,3 +34,11 @@ A pull request is a proposal to merge a set of changes from one branch into anot
 ## f. What Does `git diff` Do?
 
 The `git diff` command is used to show the differences between changes made in your files. It tracks the differences between various versions of files, which is essential for understanding what has changed in your codebase.
+
+## g. What is the Main Branch?
+
+In Git, "main" (or "master") is a naming convention for a branch. After cloning (downloading) a project from a remote server, the resulting local repository has a single local branch: the so-called "main" (or "master") branch. This branch is considered the default branch of the repository.
+
+## h. Besides Our Initial Commit (If It Is a New Repository), Should We Directly Push Our Changes into the Main Branch?
+
+Ideally, you should create a separate branch for your changes, make and commit changes in that branch, and then push the branch. Finally, create a pull request to merge your changes into the main branch. This approach allows for better code review and integration practices.
