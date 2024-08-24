@@ -25,3 +25,12 @@ A pull request is a proposal to merge a set of changes from one branch into anot
 4. To the right of **"Manage access"**, click **Add people** or **Add teams**.
 5. In the search field, start typing the name of the team or person to invite, then click a name in the list of matches.
 6. For advanced roles like **WRITE**, you need an organizational account. Under **"Choose a role"**, select the **WRITE** role to grant to the team or person.
+
+## e. What is the Difference Between Git and GitHub?
+
+- **Git** is a version control system that lets you manage and keep track of your source code history.
+- **GitHub** is a cloud-based hosting service that lets you manage Git repositories.
+
+## f. What Does `git diff` Do?
+
+The `git diff` command is used to show the differences between changes made in your files. It tracks the differences between various versions of files, which is essential for understanding what has changed in your codebase.
