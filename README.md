@@ -1,1 +1,53 @@
 # Git Assignment - CharlesColaco
+
+## a. What is an Issue?
+
+Issues are used to track todos, bugs, feature requests, and more. As issues are created, they’ll appear in a searchable and filterable list.
+
+## b. What is a Pull Request?
+
+A pull request is a proposal to merge a set of changes from one branch into another. In a pull request, collaborators can review and discuss the proposed changes before integrating them into the main codebase.
+
+## c. Describe the Steps to Open a Pull Request
+
+1. On [GitHub.com](https://github.com), navigate to the main page of the repository.
+2. In the **"Branch"** menu, choose the branch that contains your commits.
+3. Above the list of files, in the banner, click **Compare & pull request** to create a pull request for the associated branch.
+4. Use the **base branch** dropdown menu to select the branch you'd like to merge your changes into, then use the **compare branch** dropdown menu to choose the topic branch where you made your changes.
+5. Type a **title** and **description** for your pull request.
+6. To create a pull request that is ready for review, click **Create Pull Request**. To create a draft pull request, select **Create Draft Pull Request** from the dropdown menu, then click **Draft Pull Request**. If you are a member of an organization, you may need to request access to draft pull requests from an organization owner.
+
+## d. Describe the Steps to Add a Collaborator to a Repository (Share Write Permissions)
+
+1. On [GitHub.com](https://github.com), navigate to the main page of the repository.
+2. Under your repository name, click **Settings**. If you cannot see the "Settings" tab, select the **...** dropdown menu, then click **Settings**.
+3. In the **"Access"** section of the sidebar, click **Collaborators & teams**.
+4. To the right of **"Manage access"**, click **Add people** or **Add teams**.
+5. In the search field, start typing the name of the team or person to invite, then click a name in the list of matches.
+6. For advanced roles like **WRITE**, you need an organizational account. Under **"Choose a role"**, select the **WRITE** role to grant to the team or person.
+
+## e. What is the Difference Between Git and GitHub?
+
+- **Git** is a version control system that lets you manage and keep track of your source code history.
+- **GitHub** is a cloud-based hosting service that lets you manage Git repositories.
+
+## f. What Does `git diff` Do?
+
+The `git diff` command is used to show the differences between changes made in your files. It tracks the differences between various versions of files, which is essential for understanding what has changed in your codebase.
+
+## g. What is the Main Branch?
+
+In Git, "main" (or "master") is a naming convention for a branch. After cloning (downloading) a project from a remote server, the resulting local repository has a single local branch: the so-called "main" (or "master") branch. This branch is considered the default branch of the repository.
+
+## h. Besides Our Initial Commit (If It Is a New Repository), Should We Directly Push Our Changes into the Main Branch?
+
+Ideally, you should create a separate branch for your changes, make and commit changes in that branch, and then push the branch. Finally, create a pull request to merge your changes into the main branch. This approach allows for better code review and integration practices.
+
+## Sources
+
+- [GitHub](https://github.com/)
+- [About Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
+- [Managing Teams and People with Access to Your Repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-teams-and-people-with-access-to-your-repository#removing-access-for-a-team-or-person)
+- [Git vs. GitHub: What's the Difference?](https://devmountain.com/blog/git-vs-github-whats-the-difference/#:~:text=GitHub%E2%80%A6-,what's%20the%20difference%3F,lets%20you%20manage%20Git%20repositories.)
+- [What Does `git diff` Do?](https://www.toolsqa.com/git/git-diff/)
+- [What is the Main Branch?](https://www.git-tower.com/learn/git/glossary/master#:~:text=In%20Git%2C%20%22main%22%20(,a%20repository's%20%22default%22%20branch.)
